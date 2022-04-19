@@ -20,6 +20,7 @@ body {
 .main-text {
   font-size: 40px;
   font-weight: 900;
+  color: black;
 }
 
 .dull-text {
@@ -69,5 +70,13 @@ button {
 }
 
 #dark-mode {
-  background: yellow;
+  background: #FF6363;
+}
+
+#dark-mode:hover {
+  background: #E8630A;
+}
+
+.dull-text {
+  color: black;
 }
