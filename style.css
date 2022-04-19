@@ -1,0 +1,54 @@
+body {
+  background: #273549;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.main-body {
+ background: #ECFDF5;
+ height: 550px;
+ width: 550px;
+ padding: 50px;
+ box-sizing: border-box;
+
+}
+
+.main-text {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.dull-text {
+    font-size: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 4px 12px;
+    width: 223px;
+    height: 42px;
+    border-radius: 11px;
+    border: none;
+}
+
+.password-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.first-set, .second-set {
+    display: flex;
+    gap: 16px;
+    margin: auto;
+}
+
+.main-button {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
