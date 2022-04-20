@@ -65,7 +65,7 @@ button {
   color: white;
 }
 
-#inner-password-button {
+.inner-password-button {
   background-color: #273549;
   color: #5def92;
 }

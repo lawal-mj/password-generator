@@ -19,7 +19,7 @@
             <p>Never use an insecure password again.</p>
         </div>
         <div class="main-button">
-            <button id="generate-password">Generate passwords</button>
+            <button onclick="start()" id="generate-password">Generate passwords</button>
             <div class="left-side">
                 <button onclick="darkMode()" id="dark-mode">Dark Mode</button>
                 <button onclick="lightMode()" id="light-mode">Light Mode</button>
@@ -28,12 +28,12 @@
         <hr>
         <div class="password-buttons">
             <div class="first-set">
-                <button id="inner-password-button">749y3g8rbqeu</button>
-                <button id="inner-password-button">749y3g8rbqeu</button>
+                <button id="box-1" class="inner-password-button">749y3g8rbqeu</button>
+                <button id="box-2" class="inner-password-button">749y3g8rbqeu</button>
             </div>
             <div class="second-set">
-                <button id="inner-password-button">749y3g8rbqeu</button>
-                <button id="inner-password-button">749y3g8rbqeu</button>
+                <button id="box-3" class="inner-password-button">749y3g8rbqeu</button>
+                <button id="box-4" class="inner-password-button">749y3g8rbqeu</button>
             </div>
         </div>
     </div>
@@ -43,3 +43,4 @@
 </html>
 
 <script src="colorMode.js"></script>
+<script src="./generator.js"></script>
