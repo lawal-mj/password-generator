@@ -1,3 +1,5 @@
+let defaultPasswordLength = 8
+
 let characters = "~!@jklmnoABCabcdefghiDEFGHIJKLM#$%^&*()_+={[}]NOPQRSTpqrstuvU1234567890VWXYZ|:;'<>?"
 
 // creating and populating the character list
@@ -22,10 +24,24 @@ function generatePassword(number) {
         }if (passWord.length === charactersList.length){
             break
         }
-    }console.log(`This is the ${passWord.length} number password: ${passWord}`)
+    } return passWord
     
 }
 
+
+function start() {
+    let box1 = document.getElementById("box-1")
+    box1.textContent = generatePassword(defaultPasswordLength)
+
+    let box2 = document.getElementById("box-2")
+    box2.textContent = generatePassword(defaultPasswordLength)
+
+    let box3 = document.getElementById("box-3")
+    box3.textContent = generatePassword(defaultPasswordLength)
+
+    let box4 = document.getElementById("box-4")
+    box4.textContent = generatePassword(defaultPasswordLength)
+}
 
 
 // generatePassword(82)
